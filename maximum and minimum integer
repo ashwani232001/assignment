@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class MinMax {      //create class
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);   // syntax for input from user
+		System.out.println("input number 1");
+		int b = sc.nextInt();
+		int a = sc.nextInt();
+		if(a>b) {               // condition for check which one is smaller and larger
+			System.out.println("maximum: "+a);   //print maximum and minimum number
+			System.out.println("maximum: "+b);     
+			}
+			else {
+				System.out.println("maximum: "+b);
+				System.out.println("maximum: "+a);
+			
+		}
+		
+		
+	}
+
+}
