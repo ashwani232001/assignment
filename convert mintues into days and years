@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Convert {    // create class
+public static void main(String[] args) {    //main method
+	Scanner sc = new Scanner(System.in);     // syntax for input from user
+	System.out.println("Input the number of minutes: ");
+	int min = sc.nextInt();      //input from user
+	int year=0,days=0;             
+	int mininyear =60*24*365;      // convert minutes into year
+	year = (min/mininyear);          
+	days= (min/60/24)%365;
+	System.out.println("year: "+year);
+	System.out.println("days: "+days);
+}
+}
