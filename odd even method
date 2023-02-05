@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class Numbers{
+    public  String getnumber(int n){
+
+        if (n%2==0){
+            return "even";
+        }
+        else {
+            return "odd";
+        }
+    }
+}
+public class OddEven {
+    public static void main(String[] args) {
+        Scanner num= new Scanner(System.in);
+        int n= num.nextInt();
+        Numbers sc = new Numbers();
+
+        String str = sc.getnumber(n);
+
+
+        System.out.println(str);
+    }
+}
