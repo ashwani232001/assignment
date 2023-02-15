@@ -1,0 +1,15 @@
+package com.cognizant.shapes;
+class Rectangle{
+	void calculateArea() {
+	  int l=4;
+	  int b=3;
+	  int area=l*b;
+	  System.out.println("Area of the Rectangle : "+area);
+	}
+}
+public class AreaCalculator {
+public static void main(String[] args) {
+	Rectangle rec = new Rectangle();
+	rec.calculateArea();
+}
+}
