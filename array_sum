@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Ques1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first value");
+        int a= sc.nextInt();
+        System.out.println("Enter the second value");
+        int b= sc.nextInt();
+        System.out.println("Enter the third value");
+        int c= sc.nextInt();
+        int num[] = {a,b,c};
+        int sum=0;
+        for (int i : num)
+            sum += i;
+        System.out.println("The sum is " + sum);
+    }
+}
